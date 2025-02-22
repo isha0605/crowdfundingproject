@@ -167,29 +167,7 @@ const LandingFooter = ({data}: FooterLinksProps) => {
                 </div>
                 <div className={classes.groups}>{groups}</div>
             </Container>
-            <Container className={classes.afterFooter} size="lg">
-                <Text size="sm">
-                    © {new Date().getFullYear()} CrowdUp. All rights reserved.
-                </Text>
-
-                <Group spacing={0} className={classes.social} position="right" noWrap>
-                    <ActionIcon size="lg" component="a" href="https://github.com/kelvink96" target="_blank">
-                        <IconBrandGithub size="20" stroke={2}/>
-                    </ActionIcon>
-                    <ActionIcon size="lg" component="a" href="https://twitter.com/kelvink_96" target="_blank">
-                        <IconBrandTwitter size="20" stroke={2}/>
-                    </ActionIcon>
-                    <ActionIcon size="lg" component="a" href="https://www.facebook.com/kelvinkk96" target="_blank">
-                        <IconBrandFacebook size="20" stroke={2}/>
-                    </ActionIcon>
-                    <ActionIcon size="lg" component="a" href="https://www.instagram.com/kelvink_96/" target="_blank">
-                        <IconBrandInstagram size="20" stroke={2}/>
-                    </ActionIcon>
-                    <ActionIcon size="lg" component="a" href="https://www.linkedin.com/in/kelvink96/" target="_blank">
-                        <IconBrandLinkedin size="20" stroke={2}/>
-                    </ActionIcon>
-                </Group>
-            </Container>
+            
         </footer>
     );
 }
