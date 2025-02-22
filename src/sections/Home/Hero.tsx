@@ -8,7 +8,7 @@ const useStyles = createStyles((theme) => ({
         paddingTop: rem(180),
         paddingBottom: rem(130),
         backgroundImage:
-            'url(https://images.unsplash.com/photo-1509099836639-18ba1795216d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80)',
+            'url()',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: rem(640),
