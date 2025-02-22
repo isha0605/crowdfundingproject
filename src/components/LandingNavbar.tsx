@@ -1,3 +1,4 @@
+
 import {
     Box,
     BoxProps,
@@ -310,9 +311,7 @@ const LandingNavbar = ({compressed}: IProps) => {
                     <Button component={Link} to="/" className={classes.link} {...buttonProps}>
                         Home
                     </Button>
-                    <Button component={Link} to="/how-it-works" className={classes.link} {...buttonProps}>
-                        How it works
-                    </Button>
+                  
                     <Button component={Link} to="/campaigns" className={classes.link} {...buttonProps}>
                         Campaigns
                     </Button>
